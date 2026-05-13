@@ -1,11 +1,22 @@
-<div align="center">
+# FantaCampagnano
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Applicazione per la gestione e il calcolo degli incontri del Fantacalcio con regole personalizzate FantaCampagnano.
 
-  <h1>Built with AI Studio</h2>
+## Caratteristiche
+- **Registro Incontri**: Calcolo automatico dei punti basato su voti ed eventi.
+- **Database Giocatori**: Autocompletamento e sincronizzazione club/ruolo per la Serie A.
+- **Gestione Campionato**: Classifica dinamica con i colori ufficiali delle squadre.
+- **Calendario e Storico**: Tracciamento di tutti i match della stagione.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Come installare in locale
+1. Clona il repository.
+2. Esegui `npm install` per installare le dipendenze.
+3. Esegui `npm run dev` per avviare il server di sviluppo.
+4. Esegui `npm run build` per creare la versione di produzione nella cartella `dist`.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Come pubblicare su GitHub Pages
+1. Esporta il progetto su un repository GitHub.
+2. Vai nelle **Settings** del tuo repository su GitHub.
+3. Naviga in **Pages**.
+4. Sotto **Build and deployment > Source**, seleziona **GitHub Actions**.
+5. L'app verrà compilata e pubblicata automaticamente all'indirizzo `https://tuo-nome-utente.github.io/nome-repo/`.
